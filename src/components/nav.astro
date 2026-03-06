@@ -1,0 +1,200 @@
+---
+interface NavItem {
+  label: string;
+  href: string;
+  icon: string;
+}
+
+const navItems: NavItem[] = [
+  {
+    label: "About",
+    href: "#plan",
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M17 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9V3H15V1H17V3ZM4 9V19H20V9H4ZM6 11H8V13H6V11ZM6 15H8V17H6V15ZM10 11H18V13H10V11ZM10 15H15V17H10V15Z"></path></svg>`,
+  },
+  {
+    label: "Skills",
+    href: "#build",
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M5.32894 3.27158C6.56203 2.8332 7.99181 2.79442 9.4752 3.30496C10.9586 3.81549 12.3061 4.82561 13.2603 6.09271L14.7074 4.64553L14.7074 8.65548L10.6975 8.65548L12.1444 7.20854C11.4044 6.29742 10.4189 5.59015 9.30562 5.21149C8.19245 4.83282 7.02645 4.81306 6.02674 5.11361C5.0328 5.41244 4.23768 6.02325 3.7448 6.8387C3.25191 7.65413 3.08572 8.63259 3.26518 9.66892C3.44591 10.7125 4.00045 11.8121 4.98948 12.801C5.97852 13.7899 7.0782 14.3444 8.12178 14.5251C9.15809 14.7046 10.1365 14.5384 10.9519 14.0455C11.7674 13.5526 12.3782 12.7575 12.677 11.7636C12.7792 11.4347 12.8529 11.0918 12.8964 10.7411L14.8725 11.0325C14.8117 11.5177 14.706 12.0004 14.5522 12.4738C14.0932 13.9457 13.1036 15.1594 11.7788 15.9495C10.4539 16.7396 8.85271 16.9939 7.2004 16.6729C5.55535 16.3534 3.94523 15.4751 2.6948 14.2246C1.44438 12.9742 0.566143 11.364 0.246605 9.71898C-0.0729402 8.06667 0.181429 6.46546 0.971572 5.14059C1.76172 3.8157 2.97546 2.82617 4.44736 2.36717C4.73872 2.2762 5.03389 2.20124 5.32894 3.27158ZM14.1703 16.3497C12.7344 17.2654 11.0924 17.6911 9.43424 17.568L9.67338 15.5853C10.935 15.6764 12.1851 15.3624 13.2668 14.7004L14.1703 16.3497ZM16.3498 14.1704C17.2656 12.7345 17.6913 11.0925 17.5682 9.43432L15.5854 9.6735C15.6766 10.9351 15.3625 12.1852 14.7005 13.2669L16.3498 14.1704ZM19.387 7.32941C18.9486 6.09633 18.1904 4.98558 17.1907 4.08062L15.7435 5.52781C16.4933 6.21601 17.0623 7.0454 17.4075 7.95692L19.387 7.32941ZM8.6543 19.3872C7.42121 18.9488 6.31046 18.1905 5.4055 17.1909L6.85269 15.7437C7.54089 16.4935 8.37028 17.0624 9.2818 17.4076L8.6543 19.3872Z"></path></svg>`,
+  },
+  {
+    label: "Projects",
+    href: "#experiment",
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M7 2V4H6C5.44772 4 5 4.44772 5 5V21C5 21.5523 5.44772 22 6 22H18C18.5523 22 19 21.5523 19 21V5C19 4.44772 18.5523 4 18 4H17V2H15V4H9V2H7ZM7 6V8H17V6H18V20H6V6H7ZM8 10V18H11V10H8ZM13 10V18H16V10H13Z"></path></svg>`,
+  },
+  {
+    label: "Lessons",
+    href: "#learn",
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11 7H13V9H11V7ZM11 11H13V17H11V11Z"></path></svg>`,
+  },
+  {
+    label: "Contact",
+    href: "#contact",
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M21.7267 2.95694L16.2734 22.0432C16.1225 22.5716 15.7979 22.5956 15.5563 22.1126L11 13L1.9229 9.36919C1.41322 9.16532 1.41953 8.86022 1.95695 8.68108L21.0432 2.31901C21.5716 2.14285 21.8747 2.43866 21.7267 2.95694ZM19.0353 5.09647L6.81221 9.17085L12.4488 11.4255L15.4895 17.5068L19.0353 5.09647Z"></path></svg>`,
+  },
+];
+---
+
+<div class="flex justify-center w-full">
+  <nav
+    id="main-nav"
+    class="fixed left-1/2 -translate-x-1/2 z-[100] bg-[var(--background)] border border-1 border-transparent backdrop-blur-xl transition-all duration-500 ease-in-out md:top-6 md:bottom-auto bottom-0 w-[80%]"
+  >
+    <div class="container mx-auto flex justify-center items-center p-3">
+      <ul
+        class="flex w-full justify-between md:space-x-6 md:justify-center md:gap-12 gap-6"
+      >
+        {
+          navItems.map((item) => (
+            <li class="flex-1 md:flex-none">
+              <a
+                href={item.href}
+                class="flex flex-col items-center gap-1 text-[var(--white-icon)] transition-colors text-xs md:text-base relative group"
+              >
+                <div class="absolute -left-6 top-1/2 -translate-y-1/2 w-2 h-2 rounded-full transition-all duration-300 scale-0 opacity-0 bg-[#A9FF5B] nav-indicator hidden md:block" />
+                <span class="md:hidden flex items-center justify-center w-6 h-6">
+                  <fragment set:html={item.icon} />
+                </span>
+                <span class="hidden md:inline-block">{item.label}</span>
+                <span class="md:hidden">{item.label}</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </nav>
+</div>
+<style>
+  nav {
+    transform: translateX(-50%);
+    background-color: var(--background);
+    transition:
+      background-color 0.3s ease,
+      border-radius 0.3s ease,
+      border-color 0.3s ease;
+  }
+
+  nav.scrolling {
+    background-color: var(--component-bg);
+    border-color: #ffffff10;
+    border-radius: 9999px;
+  }
+
+  nav a.active .nav-indicator {
+    transform: translateY(-50%) scale(1);
+    opacity: 1;
+  }
+
+  nav a.active {
+    color: white !important;
+  }
+
+  @media (max-width: 767px) {
+    nav {
+      width: 100% !important;
+      transform: translateX(-50%);
+      bottom: 0;
+      left: 50%;
+      position: fixed;
+      border-radius: 1rem 1rem 0 0;
+      border-color: #ffffff10;
+    }
+
+    nav.scrolling {
+      border-radius: 1rem 1rem 0 0;
+      background-color: var(--component-bg);
+    }
+
+    body {
+      padding-bottom: 70px;
+    }
+  }
+</style>
+
+<script>
+  const nav = document.getElementById("main-nav");
+  const maxScroll = 1000;
+  let rafId: number | null = null;
+
+  function updateNav() {
+    if (window.scrollY > 0) {
+      nav?.classList.add("scrolling");
+
+      const scrollProgress = Math.min(window.scrollY / maxScroll, 1);
+      const easeProgress = 1 - Math.pow(1 - scrollProgress, 4);
+
+      const minWidth = 528;
+      const maxWidth = window.innerWidth * 0.8;
+      const currentWidth = maxWidth - (maxWidth - minWidth) * easeProgress;
+
+      if (window.innerWidth >= 768) {
+        nav?.style.setProperty("width", `${currentWidth}px`);
+      }
+    } else {
+      nav?.classList.remove("scrolling");
+      nav?.style.setProperty("width", "80%");
+    }
+    rafId = null;
+  }
+
+  window.addEventListener(
+    "scroll",
+    () => {
+      if (!rafId) {
+        rafId = requestAnimationFrame(updateNav);
+      }
+    },
+    { passive: true }
+  );
+
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+      const target = e.currentTarget as HTMLAnchorElement;
+      const targetId = target.getAttribute("href")?.substring(1) || "";
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        targetElement.scrollIntoView({
+          behavior: "smooth",
+        });
+      }
+    });
+  });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const sections = document.querySelectorAll("section[id]");
+    const navLinks = document.querySelectorAll("nav a[href^='#']");
+    const observerOptions = { threshold: 0.6 };
+
+    const observerCallback = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          navLinks.forEach((link) => link.classList.remove("active"));
+          const id = entry.target.getAttribute("id");
+          const activeLink = document.querySelector(`nav a[href="#${id}"]`);
+          if (activeLink) {
+            activeLink.classList.add("active");
+          }
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(
+      observerCallback,
+      observerOptions
+    );
+    sections.forEach((section) => observer.observe(section));
+  });
+</script>
+
+<style>
+  @media (max-width: 767px) {
+    body {
+      padding-bottom: 70px;
+    }
+  }
+
+  nav a.active {
+    color: white !important;
+  }
+</style>

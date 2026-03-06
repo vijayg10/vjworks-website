@@ -1,0 +1,37 @@
+---
+import SkillsList from "../React/SkillsList.tsx";
+---
+
+<section
+  id="build"
+  class="py-12 border-t border-[#ffffff10] text-[var(--white)]"
+>
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-lg text-[var(--sec)] mb-2 shiny-sec">The arsenal</h2>
+    <h3 class="text-4xl md:text-5xl font-medium mb-8">
+      Tools I Pretend to Master
+    </h3>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div class="text-[var(--white-icon)] space-y-4">
+        <p class="text-lg">
+          I throw code at problems until something sticks. Here's the tech
+          stack I abuse on a regular basis:
+        </p>
+        <p>
+          From JavaScript frameworks to backend sorcery, I've copy-pasted my
+          way through enough Stack Overflow answers to claim "experience" with
+          these technologies. Some I actually understand. Most I'm still
+          Googling.
+        </p>
+        <p class="text-sm italic">
+          (This list is purely decorative and definitely not an accurate
+          representation of my abilities.)
+        </p>
+      </div>
+      <div class="flex justify-center items-center">
+        <SkillsList client:load />
+      </div>
+    </div>
+  </div>
+</section>
