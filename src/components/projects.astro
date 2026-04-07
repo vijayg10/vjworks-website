@@ -2,29 +2,88 @@
 import { Image } from "astro:assets";
 import travelblog from "../../public/travelblog.png";
 import buildtrackr from "../../public/buildtrackr.png";
+import tailordost from "../../public/tailor_dost_logo_full.png";
+import pbxly from "../../public/pbxly.png";
 
-interface Project {
+interface PersonalProject {
   title: string;
+  description?: string;
   image: ImageMetadata;
   link: string;
   preview: string;
   status: string;
 }
 
-const projects: Project[] = [
+const personalProjects: PersonalProject[] = [
+  {
+    title: "TailorDost",
+    description: "Run your boutique without the paperwork. Capture customer measurements, track fabric and design references, monitor stitching progress, and manage payments — all in one place, built specifically for boutique owners.",
+    image: tailordost as ImageMetadata,
+    link: "https://tailordost.in/",
+    preview: "https://tailordost.in/",
+    status: "Live",
+  },
   {
     title: "BuildTrackr",
+    description: "Track workers, materials, machinery, and financials across all your construction sites. Real-time progress monitoring, expense tracking, and comprehensive reporting — with role-based access control built for teams of any size.",
     image: buildtrackr as ImageMetadata,
     link: "https://buildtrackr.com/",
     preview: "https://buildtrackr.com/",
-    status: "On Development",
+    status: "Live",
   },
   {
-    title: "Travel Blog",
+    title: "PBXly",
+    description: "A cloud-based PBX that streamlines business communication with call management, voicemail, and unified communications. Built for small businesses, enterprises, remote teams, and call centers — any team that takes communication seriously.",
+    image: pbxly as ImageMetadata,
+    link: "https://pbxly.com/",
+    preview: "https://pbxly.com/",
+    status: "Live",
+  },
+  {
+    title: "The Travel Diary",
+    description: "Genuine, unfiltered travel experiences from around the world. Honest reviews, practical planning tips, and real-life insights to help fellow travelers make informed decisions.",
     image: travelblog as ImageMetadata,
     link: "https://travel.vjworks.com",
     preview: "https://travel.vjworks.com",
-    status: "On Development",
+    status: "In Development",
+  },
+];
+
+const professionalHighlights = [
+  {
+    title: "Mojaloop Testing Toolkit",
+    description:
+      "Open-source toolkit enabling Digital Financial Service Providers (DFSPs) to test their Mojaloop implementations. Served as workstream owner, led the team, and contributed in NodeJS & ReactJS.",
+    link: "https://github.com/mojaloop/ml-testing-toolkit",
+    tags: ["Node.js", "React", "Open Source", "Fintech"],
+  },
+  {
+    title: "COMESA DRPP Payment Switch",
+    description:
+      "Major contributor to the COMESA Digital Retail Payment Platform — a Mojaloop-based multi-scheme interoperable payment switch serving member states across eastern and southern Africa. Implemented ISO 20022 message transformation, cross-currency FX transfers, and interscheme proxy functionality.",
+    link: "https://mojaloop.io/",
+    tags: ["Mojaloop", "ISO 20022", "FX", "Kafka", "Kubernetes", "Node.js"],
+  },
+  {
+    title: "Mojaloop Batch Processing",
+    description:
+      "Redesigned and implemented batch processing in Mojaloop using advanced Kafka partitioning and assignment strategies. Achieved massive performance gains. Presented to the Mojaloop community design authority and got it approved.",
+    link: "https://mojaloop.io/",
+    tags: ["Kafka", "Node.js", "Performance", "Architecture"],
+  },
+  {
+    title: "Reliable Calling",
+    description:
+      "Built the entire calling card platform solo in under a month — the only developer in the company at the time. Handled everything from Asterisk AGI scripts and IVR to the web CRM. It launched, it worked, and it made money.",
+    link: "#",
+    tags: ["Asterisk", "PHP", "MySQL", "VoIP", "Solo Build"],
+  },
+  {
+    title: "ILD Softswitch",
+    description:
+      "Designed and built the web interface and load balancing logic for an international long-distance softswitch routing calls between India and the USA through VPN tunnels — engineered to handle 20,000 concurrent calls. One of only 10 ILD-licensed entities in India at the time.",
+    link: "#",
+    tags: ["VoIP", "SIP", "Kamailio", "Asterisk", "VPN", "PHP"],
   },
 ];
 ---
@@ -35,11 +94,47 @@ const projects: Project[] = [
 >
   <div class="max-w-5xl mx-auto">
     <h2 class="text-lg text-[var(--sec)] mb-2 shiny-sec">The experiments</h2>
-    <h3 class="text-4xl md:text-5xl font-medium mb-8">Things I Built (Actually not Finished)</h3>
+    <h3 class="text-4xl md:text-5xl font-medium mb-8">
+      Things I've Built (Some Actually Finished)
+    </h3>
 
+    <!-- Professional Highlights -->
+    <h4 class="text-xl font-semibold text-[var(--white-icon)] mb-4">Professional Work</h4>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+      {
+        professionalHighlights.map((project) => (
+          <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="group p-6 rounded-2xl border border-[var(--white-icon-tr)] bg-[#1414149c] hover:bg-[var(--white-icon-tr)] transition-all duration-300 flex flex-col gap-3"
+          >
+            <div class="flex items-start justify-between gap-2">
+              <h5 class="text-lg font-semibold group-hover:text-white transition-colors">{project.title}</h5>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 flex-shrink-0 text-[var(--white-icon)] group-hover:text-white transition-colors mt-1">
+                <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z" />
+              </svg>
+            </div>
+            <p class="text-[var(--white-icon)] text-sm leading-relaxed flex-grow">
+              {project.description}
+            </p>
+            <div class="flex flex-wrap gap-2 mt-auto">
+              {project.tags.map((tag) => (
+                <span class="text-xs px-2 py-1 rounded-full border border-[var(--white-icon-tr)] text-[var(--white-icon)] bg-[#ffffff08]">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </a>
+        ))
+      }
+    </div>
+
+    <!-- Personal Projects -->
+    <h4 class="text-xl font-semibold text-[var(--white-icon)] mb-4">Personal Projects</h4>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       {
-        projects.map((project) => (
+        personalProjects.map((project) => (
           <div class="group">
             <a
               href={project.preview}
@@ -60,23 +155,11 @@ const projects: Project[] = [
                   <span class="py-1 text-sm text-[var(--white-icon)]">
                     {project.status}
                   </span>
+                  {project.description && (
+                    <p class="mt-2 text-sm text-[var(--white-icon)] leading-relaxed">{project.description}</p>
+                  )}
                 </div>
                 <div class="flex gap-2 ml-auto">
-                  <a
-                    target="_blank"
-                    href={project.link}
-                    aria-label="GitHub"
-                    class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      class="size-7"
-                    >
-                      <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z" />
-                    </svg>
-                  </a>
                   <a
                     target="_blank"
                     href={project.preview}
@@ -99,6 +182,7 @@ const projects: Project[] = [
         ))
       }
     </div>
+
     <a
       target="_blank"
       href="https://github.com/vijayg10?tab=repositories"

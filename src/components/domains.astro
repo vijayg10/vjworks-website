@@ -1,0 +1,77 @@
+---
+const domains = [
+  {
+    title: "Fintech & Payments",
+    years: "2019 – Present",
+    description:
+      "Built and hardened distributed payment infrastructure on Mojaloop — an open-source payment switch sponsored by the Gates Foundation. Implemented ISO 20022 message transformation, FX transfers, interoperability across COMESA member states, and performance optimization for on-premises deployments.",
+    tags: ["Mojaloop", "ISO 20022", "Kafka", "Node.js", "Kubernetes", "K6", "Grafana", "OpenTelemetry"],
+    icon: "💳",
+  },
+  {
+    title: "IoT & Home Automation",
+    years: "2017 – 2019",
+    description:
+      "Designed and built a full home automation product from the ground up — backend, mobile apps, and hardware. Managed a cross-functional team spanning Android, iOS, backend, and hardware engineers. Built Kubernetes clusters for MQTT and API services, and personally fabricated IoT device prototypes in embedded C++.",
+    tags: ["MQTT", "Node.js", "Kubernetes", "MySQL", "Jenkins", "Android", "iOS", "Embedded C++"],
+    icon: "🏠",
+  },
+  {
+    title: "Video & Broadcasting",
+    years: "2013 – 2017",
+    description:
+      "Led the design and implementation of an ad replacement system for live TV channels — replacing commercials on the fly using SCTE-35 markers and cuetones. Also built IPTV infrastructure with adaptive bitrate streaming, custom Android firmware for set-top boxes, and multi-channel delayed playout systems.",
+    tags: ["Wowza", "Nginx RTMP", "HLS", "FFmpeg", "NodeJS", "CasparCG", "VLC"],
+    icon: "📡",
+  },
+  {
+    title: "VoIP & Telecom",
+    years: "2005 – 2013",
+    description:
+      "Built international long-distance softswitch infrastructure handling 20,000 concurrent calls through VPN tunnels. Developed legal intercept software for voice and data traffic, IP phone platforms, and calling card systems. One of only 10 entities in India with an ILD license at the time.",
+    tags: ["Asterisk", "Kamailio", "Freeswitch", "SIP", "VPN", "PHP", "MySQL"],
+    icon: "📞",
+  },
+];
+---
+
+<section
+  id="domains"
+  class="py-12 border-t border-[#ffffff10] text-[var(--white)]"
+>
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-lg text-[var(--sec)] mb-2 shiny-sec">The breadth</h2>
+    <h3 class="text-4xl md:text-5xl font-medium mb-4">
+      Domains I've Actually Shipped In
+    </h3>
+    <p class="text-[var(--white-icon)] mb-8 text-lg">
+      Twenty years across four very different industries. Not because I planned it that way — I just kept saying yes to interesting problems.
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {
+        domains.map((domain) => (
+          <div class="p-6 rounded-2xl border border-[var(--white-icon-tr)] bg-[#1414149c] hover:bg-[var(--white-icon-tr)] transition-all duration-300 flex flex-col gap-4">
+            <div class="flex items-center gap-3">
+              <span class="text-3xl">{domain.icon}</span>
+              <div>
+                <h4 class="text-xl font-semibold">{domain.title}</h4>
+                <span class="text-sm text-[var(--white-icon)] opacity-60">{domain.years}</span>
+              </div>
+            </div>
+            <p class="text-[var(--white-icon)] text-sm leading-relaxed">
+              {domain.description}
+            </p>
+            <div class="flex flex-wrap gap-2 mt-auto">
+              {domain.tags.map((tag) => (
+                <span class="text-xs px-2 py-1 rounded-full border border-[var(--white-icon-tr)] text-[var(--white-icon)] bg-[#ffffff08]">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

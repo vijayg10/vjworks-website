@@ -1,0 +1,396 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - link "TailorDost" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "TailorDost" [ref=e7]
+      - generic [ref=e8]:
+        - link "Features" [ref=e9] [cursor=pointer]:
+          - /url: "#features"
+        - link "How It Works" [ref=e10] [cursor=pointer]:
+          - /url: "#how-it-works"
+        - link "Pricing" [ref=e11] [cursor=pointer]:
+          - /url: "#pricing"
+        - link "FAQ" [ref=e12] [cursor=pointer]:
+          - /url: "#faq"
+        - link "Get Started" [ref=e13] [cursor=pointer]:
+          - /url: "#contact"
+  - generic [ref=e16]:
+    - heading "Boutique Order Management From Measurement to Delivery" [level=1] [ref=e17]:
+      - text: Boutique Order Management
+      - text: From Measurement to Delivery
+    - paragraph [ref=e18]: Run your boutique without the paperwork. Capture customer measurements, track fabric and design references, monitor stitching progress, and manage payments — all in one organized platform built for boutique owners.
+    - generic [ref=e19]:
+      - link "Get Started Free" [ref=e20] [cursor=pointer]:
+        - /url: "#contact"
+      - link "See How It Works" [ref=e21] [cursor=pointer]:
+        - /url: "#how-it-works"
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: 500+
+        - generic [ref=e25]: Boutiques Using TailorDost
+      - generic [ref=e26]:
+        - generic [ref=e27]: 5000+
+        - generic [ref=e28]: Happy Customers
+      - generic [ref=e29]:
+        - generic [ref=e30]: 99.9%
+        - generic [ref=e31]: Uptime
+  - generic [ref=e35]:
+    - generic [ref=e36]:
+      - heading "Everything You Need to Run Your Boutique" [level=2] [ref=e37]
+      - paragraph [ref=e38]: Purpose-built tools that handle the full custom garment lifecycle — from the first customer visit to final delivery.
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - img [ref=e42]
+        - heading "Business Dashboard" [level=3] [ref=e44]
+        - paragraph [ref=e45]: Get an instant snapshot of your boutique every morning — active orders, overdue items, orders due this week, and outstanding payments, all on one screen.
+      - generic [ref=e46]:
+        - img [ref=e48]
+        - heading "Customer Directory" [level=3] [ref=e50]
+        - paragraph [ref=e51]: A searchable directory of all your customers with profiles storing names, phone numbers, addresses, notes, and their complete order history in one place.
+      - generic [ref=e52]:
+        - img [ref=e54]
+        - heading "Order Progress Tracking" [level=3] [ref=e56]
+        - paragraph [ref=e57]: Move every order through a clear six-stage workflow — Pending, Cutting, Stitching, Trial Ready, Completed, and Delivered — with one-click status updates.
+      - generic [ref=e58]:
+        - img [ref=e60]
+        - heading "Measurement Recording" [level=3] [ref=e62]
+        - paragraph [ref=e63]: Record all customer measurements directly against each order — no paper slips, no lost notebooks, everything stored digitally in one place.
+      - generic [ref=e64]:
+        - img [ref=e66]
+        - heading "Design Reference Management" [level=3] [ref=e68]
+        - paragraph [ref=e69]: Upload design inspiration photos and write special instructions directly against each order. No more hunting through WhatsApp threads or physical folders.
+      - generic [ref=e70]:
+        - img [ref=e72]
+        - heading "Billing & Payment Tracking" [level=3] [ref=e74]
+        - paragraph [ref=e75]: Record fabric and stitching costs, auto-calculate order totals, and track payment status — Paid, Partially Paid, or Unpaid — so no order leaves without full payment.
+      - generic [ref=e76]:
+        - img [ref=e78]
+        - heading "Fabric Tracking" [level=3] [ref=e80]
+        - paragraph [ref=e81]: Record fabric type, color, and source for every order, and attach fabric photos for visual confirmation. No more mix-ups when managing multiple orders with similar materials.
+      - generic [ref=e82]:
+        - img [ref=e84]
+        - heading "Photo Documentation" [level=3] [ref=e86]
+        - paragraph [ref=e87]: Attach customer photos, trial fitting photos, and final garment photos — organized in three categories so every visual record is easy to find at each stage of stitching.
+      - generic [ref=e88]:
+        - img [ref=e90]
+        - heading "Customer Tracking Links" [level=3] [ref=e92]
+        - paragraph [ref=e93]: Generate a secure, shareable link for any order and send it to your customer via WhatsApp or SMS. They can check their order status, design references, and photos without calling you. Link expiration is configurable.
+      - generic [ref=e94]:
+        - img [ref=e96]
+        - heading "Tailor Team Access" [level=3] [ref=e98]
+        - paragraph [ref=e99]: Create an access link for your tailoring staff that shows all active orders in one place, each labeled Overdue, Due Soon, or Upcoming — so your team can prioritize work without needing your login credentials. Link expiration is configurable.
+  - generic [ref=e103]:
+    - generic [ref=e104]:
+      - heading "How TailorDost Works" [level=2] [ref=e105]
+      - paragraph [ref=e106]: A simple, repeatable workflow for every custom order you take
+    - generic [ref=e107]:
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - generic [ref=e110]: "1"
+          - heading "Add a Customer" [level=3] [ref=e111]
+          - paragraph [ref=e112]: Create a customer profile with their name, phone number, and any fitting preferences. New customers are added in seconds.
+        - img [ref=e114]
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "2"
+          - heading "Create an Order" [level=3] [ref=e119]
+          - paragraph [ref=e120]: Place a new order for the customer — select the garment type, occasion, and delivery date. The system shows the exact measurement fields needed.
+        - img [ref=e122]
+      - generic [ref=e124]:
+        - generic [ref=e125]:
+          - generic [ref=e126]: "3"
+          - heading "Record Details" [level=3] [ref=e127]
+          - paragraph [ref=e128]: Enter measurements, upload design references, add fabric details, and attach any relevant photos — everything stored against that order.
+        - img [ref=e130]
+      - generic [ref=e133]:
+        - generic [ref=e134]: "4"
+        - heading "Track & Deliver" [level=3] [ref=e135]
+        - paragraph [ref=e136]: Move the order through each stage with one click, update payment status as amounts are received, and hand over with a complete record attached.
+  - generic [ref=e138]:
+    - generic [ref=e139]:
+      - heading "Trusted by Boutique Owners" [level=2] [ref=e140]
+      - paragraph [ref=e141]: See what boutique owners and tailors have to say about TailorDost
+    - generic [ref=e142]:
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - img [ref=e145]
+          - img [ref=e147]
+          - img [ref=e149]
+          - img [ref=e151]
+          - img [ref=e153]
+        - paragraph [ref=e155]: "\"Before TailorDost, I was managing 30+ orders in a notebook and constantly losing track of measurements. Now everything is in one place and I can find any customer in seconds. My trial fitting errors have dropped dramatically.\""
+        - generic [ref=e156]:
+          - generic [ref=e157]:
+            - generic [ref=e158]: MN
+            - generic [ref=e159]:
+              - generic [ref=e160]: Meera Nair
+              - generic [ref=e161]: Boutique Owner
+          - generic [ref=e162]: Zari Studio
+      - generic [ref=e163]:
+        - generic [ref=e164]:
+          - img [ref=e165]
+          - img [ref=e167]
+          - img [ref=e169]
+          - img [ref=e171]
+          - img [ref=e173]
+        - paragraph [ref=e175]: "\"My customers used to send design photos on WhatsApp and I'd spend 20 minutes hunting for them. Now I upload everything to the order immediately. No more chaos, no more missed details.\""
+        - generic [ref=e176]:
+          - generic [ref=e177]:
+            - generic [ref=e178]: SD
+            - generic [ref=e179]:
+              - generic [ref=e180]: Sunita Desai
+              - generic [ref=e181]: Boutique Owner
+          - generic [ref=e182]: Regal Cuts
+      - generic [ref=e183]:
+        - generic [ref=e184]:
+          - img [ref=e185]
+          - img [ref=e187]
+          - img [ref=e189]
+          - img [ref=e191]
+          - img [ref=e193]
+        - paragraph [ref=e195]: "\"The billing and payment tracking alone is worth the subscription. I used to forget who had paid and who hadn't. Now I see outstanding balances instantly and no order leaves without full payment.\""
+        - generic [ref=e196]:
+          - generic [ref=e197]:
+            - generic [ref=e198]: AK
+            - generic [ref=e199]:
+              - generic [ref=e200]: Ananya Krishnan
+              - generic [ref=e201]: Boutique Owner
+          - generic [ref=e202]: The Stitch Co.
+      - generic [ref=e203]:
+        - generic [ref=e204]:
+          - img [ref=e205]
+          - img [ref=e207]
+          - img [ref=e209]
+          - img [ref=e211]
+          - img [ref=e213]
+        - paragraph [ref=e215]: "\"My master tailor used to call me every morning asking what to work on next. Since I started sharing the tailor tracking link, he checks it himself and gets straight to work. That alone saves me so much time.\""
+        - generic [ref=e216]:
+          - generic [ref=e217]:
+            - generic [ref=e218]: RI
+            - generic [ref=e219]:
+              - generic [ref=e220]: Rekha Iyer
+              - generic [ref=e221]: Boutique Owner
+          - generic [ref=e222]: Kalakar Boutique
+      - generic [ref=e223]:
+        - generic [ref=e224]:
+          - img [ref=e225]
+          - img [ref=e227]
+          - img [ref=e229]
+          - img [ref=e231]
+          - img [ref=e233]
+        - paragraph [ref=e235]: "\"The dashboard showing overdue orders and orders due this week is how I start every morning. I walk into the shop knowing exactly what's urgent. TailorDost has made me a much more organised boutique owner.\""
+        - generic [ref=e236]:
+          - generic [ref=e237]:
+            - generic [ref=e238]: DP
+            - generic [ref=e239]:
+              - generic [ref=e240]: Divya Pillai
+              - generic [ref=e241]: Boutique Owner
+          - generic [ref=e242]: Divya Creations
+  - generic [ref=e244]:
+    - generic [ref=e245]:
+      - heading "Simple, Transparent Pricing" [level=2] [ref=e246]
+      - paragraph [ref=e247]: Choose the plan that fits your boutique. Upgrade or cancel any time.
+    - generic [ref=e248]:
+      - generic [ref=e249]:
+        - heading "Starter" [level=3] [ref=e250]
+        - generic [ref=e251]: ₹999 /month
+        - paragraph [ref=e252]: Perfect for solo boutique owners just getting started
+        - list [ref=e253]:
+          - listitem [ref=e254]:
+            - img [ref=e255]
+            - generic [ref=e257]: Up to 50 active orders
+          - listitem [ref=e258]:
+            - img [ref=e259]
+            - generic [ref=e261]: Customer directory
+          - listitem [ref=e262]:
+            - img [ref=e263]
+            - generic [ref=e265]: Measurement recording
+          - listitem [ref=e266]:
+            - img [ref=e267]
+            - generic [ref=e269]: Order progress tracking
+          - listitem [ref=e270]:
+            - img [ref=e271]
+            - generic [ref=e273]: Photo uploads
+          - listitem [ref=e274]:
+            - img [ref=e275]
+            - generic [ref=e277]: Email support
+        - link "Get Started" [ref=e278] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e280]:
+        - generic [ref=e281]: MOST POPULAR
+        - heading "Professional" [level=3] [ref=e282]
+        - generic [ref=e283]: ₹2,499 /month
+        - paragraph [ref=e284]: For growing boutiques managing high order volumes
+        - list [ref=e285]:
+          - listitem [ref=e286]:
+            - img [ref=e287]
+            - generic [ref=e289]: Unlimited active orders
+          - listitem [ref=e290]:
+            - img [ref=e291]
+            - generic [ref=e293]: Full customer profiles & history
+          - listitem [ref=e294]:
+            - img [ref=e295]
+            - generic [ref=e297]: Design reference & fabric tracking
+          - listitem [ref=e298]:
+            - img [ref=e299]
+            - generic [ref=e301]: Billing & payment tracking
+          - listitem [ref=e302]:
+            - img [ref=e303]
+            - generic [ref=e305]: Business dashboard & reports
+          - listitem [ref=e306]:
+            - img [ref=e307]
+            - generic [ref=e309]: Priority support
+        - link "Start Free Trial" [ref=e310] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e311]:
+        - heading "Enterprise" [level=3] [ref=e312]
+        - generic [ref=e313]: Custom
+        - paragraph [ref=e314]: Self-hosted solution for boutique chains and franchises
+        - list [ref=e315]:
+          - listitem [ref=e316]:
+            - img [ref=e317]
+            - generic [ref=e319]: Unlimited orders & customers
+          - listitem [ref=e320]:
+            - img [ref=e321]
+            - generic [ref=e323]: Multi-location support
+          - listitem [ref=e324]:
+            - img [ref=e325]
+            - generic [ref=e327]: Self-hosted on your servers
+          - listitem [ref=e328]:
+            - img [ref=e329]
+            - generic [ref=e331]: Complete data ownership
+          - listitem [ref=e332]:
+            - img [ref=e333]
+            - generic [ref=e335]: Custom integrations
+          - listitem [ref=e336]:
+            - img [ref=e337]
+            - generic [ref=e339]: Dedicated account manager
+          - listitem [ref=e340]:
+            - img [ref=e341]
+            - generic [ref=e343]: Custom training & onboarding
+          - listitem [ref=e344]:
+            - img [ref=e345]
+            - generic [ref=e347]: Priority support
+          - listitem [ref=e348]:
+            - img [ref=e349]
+            - generic [ref=e351]: API access
+        - link "Contact Sales" [ref=e352] [cursor=pointer]:
+          - /url: "#contact"
+  - generic [ref=e354]:
+    - generic [ref=e355]:
+      - heading "Frequently Asked Questions" [level=2] [ref=e356]
+      - paragraph [ref=e357]: Everything you need to know about TailorDost
+    - generic [ref=e358]:
+      - generic [ref=e359]:
+        - button "What is TailorDost and who is it for?" [ref=e360]:
+          - generic [ref=e361]: What is TailorDost and who is it for?
+          - img [ref=e362]
+        - generic: TailorDost is a purpose-built order management application for boutique owners who take custom garment orders. It brings the entire order lifecycle — from recording a customer's measurements to tracking fabric, stitching progress, and final payment — into one organized platform, replacing paper notebooks, spreadsheets, and scattered WhatsApp messages.
+      - generic [ref=e364]:
+        - button "How does order progress tracking work?" [ref=e365]:
+          - generic [ref=e366]: How does order progress tracking work?
+          - img [ref=e367]
+        - generic: "Every order in TailorDost moves through a clear six-stage workflow: Pending → Cutting → Stitching → Trial Ready → Completed → Delivered. Moving an order to the next stage is a single click, making it easy to keep records current even in a busy shop. The dashboard surfaces overdue orders and orders due this week so you always know what needs priority attention."
+      - generic [ref=e369]:
+        - button "Can I store design photos and fabric details with each order?" [ref=e370]:
+          - generic [ref=e371]: Can I store design photos and fabric details with each order?
+          - img [ref=e372]
+        - generic: Yes. For each order you can upload design reference photos, write special stitching instructions, record fabric type, color, and source, and attach photos of the actual fabric. You can also upload customer photos, trial fitting photos, and final garment photos — organized in separate categories so every visual record is easy to find.
+      - generic [ref=e374]:
+        - button "How does billing and payment tracking work?" [ref=e375]:
+          - generic [ref=e376]: How does billing and payment tracking work?
+          - img [ref=e377]
+        - generic: Each order records fabric cost and stitching cost separately, with the total calculated automatically. Payment status — Paid, Partially Paid, or Unpaid — can be updated as payments come in. The dashboard shows a count of orders with outstanding balances so you always know which customers owe money before an order is delivered.
+      - generic [ref=e379]:
+        - button "Is my data private and secure?" [ref=e380]:
+          - generic [ref=e381]: Is my data private and secure?
+          - img [ref=e382]
+        - generic: Absolutely. Each boutique's data is completely isolated — you can only ever see your own customers and orders. We use bank-level encryption for all stored data and maintain strict access controls. Enterprise plans also support self-hosted deployment for boutique chains that want complete data ownership on their own servers.
+      - generic [ref=e384]:
+        - button "Can customers track their own orders?" [ref=e385]:
+          - generic [ref=e386]: Can customers track their own orders?
+          - img [ref=e387]
+        - generic: Yes. You can generate a secure, shareable tracking link for any order and send it to your customer via WhatsApp or SMS. The customer can open the link without logging in to see the current status of their order, along with design references, fabric details, and photos. Link expiration is configurable, and you can deactivate any link at any time if it was shared with the wrong contact. Multiple links can be generated for the same order as needed.
+      - generic [ref=e389]:
+        - button "Can my tailoring staff view orders without accessing my account?" [ref=e390]:
+          - generic [ref=e391]: Can my tailoring staff view orders without accessing my account?
+          - img [ref=e392]
+        - generic: Yes. TailorDost lets you generate a separate tailor team link that shows all active orders in one place. Each order is labeled Overdue, Due Soon, or Upcoming — so your staff can prioritize stitching without needing your login credentials or waiting for you to brief them individually. Link expiration is configurable, and links can be deactivated at any time from the Tailor Tracking Links page.
+  - generic [ref=e396]:
+    - generic [ref=e397]:
+      - heading "Start Managing Orders the Smart Way" [level=2] [ref=e398]
+      - paragraph [ref=e399]: Join hundreds of boutique owners using TailorDost to stay organized, delight customers, and grow their business. Get started in minutes.
+      - list [ref=e400]:
+        - listitem [ref=e401]:
+          - img [ref=e402]
+          - generic [ref=e404]: Free 14-day trial
+        - listitem [ref=e405]:
+          - img [ref=e406]
+          - generic [ref=e408]: Setup in under 10 minutes
+        - listitem [ref=e409]:
+          - img [ref=e410]
+          - generic [ref=e412]: No credit card required
+        - listitem [ref=e413]:
+          - img [ref=e414]
+          - generic [ref=e416]: Dedicated onboarding support
+      - generic [ref=e417]:
+        - paragraph [ref=e418]: "Questions? Reach out to our team:"
+        - link "contact@tailordost.in" [ref=e419] [cursor=pointer]:
+          - /url: mailto:contact@tailordost.in
+    - generic [ref=e421]:
+      - generic [ref=e422]:
+        - generic [ref=e423]: Full Name
+        - textbox "Full Name" [ref=e424]:
+          - /placeholder: Priya Sharma
+      - generic [ref=e425]:
+        - generic [ref=e426]: Work Email
+        - textbox "Work Email" [ref=e427]:
+          - /placeholder: priya@yourboutique.com
+      - generic [ref=e428]:
+        - generic [ref=e429]: Boutique Name
+        - textbox "Boutique Name" [ref=e430]:
+          - /placeholder: Your Boutique Name
+      - generic [ref=e431]:
+        - generic [ref=e432]: Tell us about your boutique
+        - textbox "Tell us about your boutique" [ref=e433]:
+          - /placeholder: Number of orders per month, garment types, key challenges...
+      - button "Get Started Free" [ref=e434]
+      - paragraph [ref=e435]:
+        - text: By submitting this form, you agree to our
+        - link "Terms of Service" [ref=e436] [cursor=pointer]:
+          - /url: "#"
+        - text: and
+        - link "Privacy Policy" [ref=e437] [cursor=pointer]:
+          - /url: "#"
+  - contentinfo [ref=e438]:
+    - generic [ref=e439]:
+      - generic [ref=e440]:
+        - generic [ref=e441]:
+          - generic [ref=e442]: TailorDost
+          - paragraph [ref=e443]: Purpose-built boutique management for custom garment professionals. Every order, perfectly organized.
+        - generic [ref=e444]:
+          - heading "Product" [level=4] [ref=e445]
+          - list [ref=e446]:
+            - listitem [ref=e447]:
+              - link "Features" [ref=e448] [cursor=pointer]:
+                - /url: "#features"
+            - listitem [ref=e449]:
+              - link "Pricing" [ref=e450] [cursor=pointer]:
+                - /url: "#pricing"
+            - listitem [ref=e451]:
+              - link "How It Works" [ref=e452] [cursor=pointer]:
+                - /url: "#how-it-works"
+        - generic [ref=e453]:
+          - heading "Company" [level=4] [ref=e454]
+          - list [ref=e455]:
+            - listitem [ref=e456]:
+              - link "About Us" [ref=e457] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e458]:
+              - link "Case Studies" [ref=e459] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e460]:
+              - link "Contact" [ref=e461] [cursor=pointer]:
+                - /url: "#contact"
+      - paragraph [ref=e463]: © 2026 TailorDost. All rights reserved.
