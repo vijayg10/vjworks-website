@@ -1,20 +1,26 @@
 ---
 interface Props {
   title: string;
+  description?: string;
+  ogTitle?: string;
 }
 
-const { title } = Astro.props;
+const {
+  title,
+  description = "vjworks - Vijay's hobby playground. Where ideas meet execution (with varying degrees of success).",
+  ogTitle = "vjworks - Vijay's Hobby Playground",
+} = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="vjworks - Vijay's hobby playground. Where ideas meet execution (with varying degrees of success)." />
+    <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="/favicon.png" />
-    <meta property="og:title" content="vjworks - Vijay's Hobby Playground" />
-    <meta property="og:description" content="Where half-baked ideas meet questionable execution. A hobby project playground." />
+    <meta property="og:title" content={ogTitle} />
+    <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="vjworks" />
 

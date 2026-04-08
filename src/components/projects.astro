@@ -1,14 +1,7 @@
 ---
-import { Image } from "astro:assets";
-import travelblog from "../../public/travelblog.png";
-import buildtrackr from "../../public/buildtrackr.png";
-import tailordost from "../../public/tailor_dost_logo_full.png";
-import pbxly from "../../public/pbxly.png";
-
 interface PersonalProject {
   title: string;
   description?: string;
-  image: ImageMetadata;
   link: string;
   preview: string;
   status: string;
@@ -18,7 +11,6 @@ const personalProjects: PersonalProject[] = [
   {
     title: "TailorDost",
     description: "Run your boutique without the paperwork. Capture customer measurements, track fabric and design references, monitor stitching progress, and manage payments — all in one place, built specifically for boutique owners.",
-    image: tailordost as ImageMetadata,
     link: "https://tailordost.in/",
     preview: "https://tailordost.in/",
     status: "Live",
@@ -26,7 +18,6 @@ const personalProjects: PersonalProject[] = [
   {
     title: "BuildTrackr",
     description: "Track workers, materials, machinery, and financials across all your construction sites. Real-time progress monitoring, expense tracking, and comprehensive reporting — with role-based access control built for teams of any size.",
-    image: buildtrackr as ImageMetadata,
     link: "https://buildtrackr.com/",
     preview: "https://buildtrackr.com/",
     status: "Live",
@@ -34,7 +25,6 @@ const personalProjects: PersonalProject[] = [
   {
     title: "PBXly",
     description: "A cloud-based PBX that streamlines business communication with call management, voicemail, and unified communications. Built for small businesses, enterprises, remote teams, and call centers — any team that takes communication seriously.",
-    image: pbxly as ImageMetadata,
     link: "https://pbxly.com/",
     preview: "https://pbxly.com/",
     status: "Live",
@@ -42,7 +32,6 @@ const personalProjects: PersonalProject[] = [
   {
     title: "The Travel Diary",
     description: "Genuine, unfiltered travel experiences from around the world. Honest reviews, practical planning tips, and real-life insights to help fellow travelers make informed decisions.",
-    image: travelblog as ImageMetadata,
     link: "https://travel.vjworks.com",
     preview: "https://travel.vjworks.com",
     status: "In Development",
@@ -142,13 +131,6 @@ const professionalHighlights = [
               rel="noopener noreferrer"
               class="block"
             >
-              <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 mb-4">
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  class="w-full h-48 md:h-72 object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
               <div class="flex items-center px-3">
                 <div class="flex-grow">
                   <h4 class="text-2xl font-semibold">{project.title}</h4>
