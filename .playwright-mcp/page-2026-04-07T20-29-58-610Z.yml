@@ -19,7 +19,7 @@
     - heading "Boutique Order Management From Measurement to Delivery" [level=1] [ref=e17]:
       - text: Boutique Order Management
       - text: From Measurement to Delivery
-    - paragraph [ref=e18]: Run your boutique without the paperwork. Capture customer measurements, track fabric and design references, monitor stitching progress, and manage payments — all in one organized platform built for boutique owners.
+    - paragraph [ref=e18]: Run your boutique without the paperwork. Capture customer measurements, track fabric and design references, monitor stitching progress, and manage payments, all in one organized platform built for boutique owners.
     - generic [ref=e19]:
       - link "Get Started Free" [ref=e20] [cursor=pointer]:
         - /url: "#contact"
@@ -38,7 +38,7 @@
   - generic [ref=e35]:
     - generic [ref=e36]:
       - heading "Everything You Need to Run Your Boutique" [level=2] [ref=e37]
-      - paragraph [ref=e38]: Purpose-built tools that handle the full custom garment lifecycle — from the first customer visit to final delivery.
+      - paragraph [ref=e38]: Purpose-built tools that handle the full custom garment lifecycle, from the first customer visit to final delivery.
     - generic [ref=e39]:
       - generic [ref=e40]:
         - img [ref=e42]

@@ -11,11 +11,11 @@ readTime: 7
 tags: ["experience", "architecture", "balance", "career" ]
 ---
 
-When I look back on my career, I see a cycle—a journey that started in simplicity, wandered through layers of complexity, and has now settled on the realization that balance is the real key in software development.
+When I look back on my career, I see a cycle, a journey that started in simplicity, wandered through layers of complexity, and has now settled on the realization that balance is the real key in software development.
 
 ## Early Days: Learning Without Mentors
 
-Two decades ago, I started my career as a lone developer in a small company. There were no mentors, no seniors to guide me. We had an idea for a product, and with the startup spirit, we rushed into building it. I researched the technologies on my own and pieced together solutions. We built fast, kept it simple, and surprisingly, it worked. The product found customers, generated business, and supported us for over a decade. Looking back, those early products were far from perfect—but they were lean, economical, and effective.
+Two decades ago, I started my career as a lone developer in a small company. There were no mentors, no seniors to guide me. We had an idea for a product, and with the startup spirit, we rushed into building it. I researched the technologies on my own and pieced together solutions. We built fast, kept it simple, and surprisingly, it worked. The product found customers, generated business, and supported us for over a decade. Looking back, those early products were far from perfect, but they were lean, economical, and effective.
 
 ## New Exposure: Guidance and Complexity
 

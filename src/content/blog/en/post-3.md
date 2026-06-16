@@ -18,7 +18,7 @@ print(0.1 + 0.2)
 # Output: 0.30000000000000004
 ```
 
-At first glance, this looks like a bug. How can adding 0.1 and 0.2 give anything other than 0.3? The answer lies in the decimal problem — the mismatch between how humans represent numbers (base-10 decimals) and how computers represent numbers (binary).
+At first glance, this looks like a bug. How can adding 0.1 and 0.2 give anything other than 0.3? The answer lies in the decimal problem - the mismatch between how humans represent numbers (base-10 decimals) and how computers represent numbers (binary).
 
 ## Binary vs Decimal Representation
 

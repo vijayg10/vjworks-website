@@ -11,7 +11,7 @@ readTime: 8
 tags: ["database", "architecture", "performance", "scalability" ]
 ---
 
-Selecting the right database is one of the most important architectural decisions for any software project. The database forms the backbone of your application's data integrity, scalability, and performance. While there are many types of databases available today—relational, NoSQL, in-memory, and columnar—the choice depends heavily on the use case, workload, and business priorities.
+Selecting the right database is one of the most important architectural decisions for any software project. The database forms the backbone of your application's data integrity, scalability, and performance. While there are many types of databases available today (relational, NoSQL, in-memory, and columnar), the choice depends heavily on the use case, workload, and business priorities.
 
 ## 1. ACID Principles and Transactions
 
@@ -36,9 +36,9 @@ For example, Cassandra favors availability and partition tolerance at the cost o
 
 ## 3. Row vs. Columnar Formats
 
-**Row-oriented databases** (Postgres, MySQL) are best for transactional workloads—where you frequently read or update individual rows.
+**Row-oriented databases** (Postgres, MySQL) are best for transactional workloads, where you frequently read or update individual rows.
 
-**Columnar databases** (Snowflake, ClickHouse, BigQuery) are designed for analytical workloads—where queries aggregate millions of records but only touch a few columns.
+**Columnar databases** (Snowflake, ClickHouse, BigQuery) are designed for analytical workloads, where queries aggregate millions of records but only touch a few columns.
 
 For example, an e-commerce application might store orders in a row database for fast transactions, but also replicate data into a columnar warehouse for business intelligence queries.
 
@@ -66,4 +66,4 @@ When choosing a database:
 - **Plan for cost** – Both upfront and long-term.
 - **Think about maintenance** – Fragmentation, backups, failover, and upgrades.
 
-In many real-world systems, a polyglot approach is best—using multiple databases, each optimized for its workload. For instance, an application may use PostgreSQL for transactions, Redis for caching, and BigQuery for analytics.
+In many real-world systems, a polyglot approach is best: using multiple databases, each optimized for its workload. For instance, an application may use PostgreSQL for transactions, Redis for caching, and BigQuery for analytics.
